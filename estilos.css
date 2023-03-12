@@ -1,0 +1,16 @@
+body{
+	background-color:#8ecae6;
+	
+}
+
+h1{
+	font-size: 36px;
+	border: black 2px solid;
+	text-shadow: 2px 2px;
+}
+
+p{
+	font-size: 16px;
+	margin-top: 50px;
+	margin-bottom: 50 px;
+}
