@@ -1,13 +1,1 @@
-let newDiv = document.createElement('div');
-newDiv.style.height= '50px';
-newDiv.style.width = '200px';
-newDiv.style.background = 'red';
-
-let description = document.createElement('p');
-description.innerHTML = 'En ocasiones veo muertos… (El Sexto Sentido)';
-
-newDiv.appendChild(description);
-
-console.log(newDiv);
-
-document.getElementById('lectura').appendChild(newDiv)
+window.addEventListener("load",(function(){document.createElement("div");let e=document.getElementById("title");e.innerHTML="Hay algo extraño con ese sujeto....",e.align="center";var a=document.getElementById("text1");console.log(a),a.innerHTML="Era invierno y hacia un frio de oncemil demonios, la nieve que caia, tapaba las entradas y no permitia el libre transito de los vehiculos. Todo el mundo tenia que salir abrazandose a si mismo, sin importa cuantos abrigos traian encima aún tenían un frio del demonio.<br/>Todos y todas con sus bufandas, todos y todas exhalando largos vaporones de neblina cada vez que respiraban. <br/>Abrazandose a si mismos y asi mismas con bufandas Lester era un estudiante de universidad y estaba en periodo de examenes, ¡vaya vaya miedo! ¡vaya circo de terror!<br/> A el le fascinaba la noche, simple y llanamente porque el silencio que habia, le dejaba estudiar como ninguna otra hora.<br/> Y como la Universidad permitia que la biblioteca que estuviera abierta las 24 horas, el aprovechaba eso, compraba su buen vaso de cafe EXPRESO... <br/>y se sentaba a estudiar, y poco a poco desde las 8 de la noche podía ver como la gente se iba..<br/> como la gente va siguiendo su ritual de despedida.",a.align="center",document.getElementById("img").src="1.png",document.getElementById("text2").innerHTML="Lester era un estudiante de universidad y estaba en periodo de examenes, ¡vaya vaya miedo! ¡vaya circo de terror!A el le fascinaba la noche, simple y llanamente porque el silencio que habia, le dejaba estudiar como ninguna otra hora.Y como la Universidad permitia que la biblioteca que estuviera abierta las 24 horas, el aprovechaba eso, compraba su buen vaso de cafe EXPRESO...y se sentaba a estudiar, y poco a poco desde las 8 de la noche podía ver como la gente se iba..como la gente va siguiendo su ritual de despedida.",a.align="center"}));

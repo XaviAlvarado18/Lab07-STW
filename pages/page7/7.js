@@ -1,13 +1,1 @@
-let newDiv = document.createElement('div');
-newDiv.style.height= '50px';
-newDiv.style.width = '200px';
-newDiv.style.background = 'red';
-
-let description = document.createElement('p');
-description.innerHTML = 'Ten miedo. Ten mucho miedo. (La Mosca)';
-
-newDiv.appendChild(description);
-
-console.log(newDiv);
-
-document.getElementById('lec').appendChild(newDiv)
+window.addEventListener("load",(function(){document.createElement("div");let e=document.getElementById("title");e.innerHTML="Hay algo extraño con ese sujeto....",e.align="center";var n=document.getElementById("text1");console.log(n),n.innerHTML="Dejando un vapor enorme de nieve detras de el gritando.... <br> y mientras que esta corriendo.. <br> gira la cabeza.... <br> y entonces si lo ve moverse..",n.align="center",document.getElementById("img").src="7.jpg";var a=document.getElementById("text2");a.innerHTML="aquella cosa se movia de manera acartonada.. <br> casi graciosa... <br> pero lo estaba persiguiendo... <br> y eso era lo que lo hacia tragico..",a.align="center"}));

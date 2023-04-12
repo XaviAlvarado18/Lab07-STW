@@ -1,13 +1,1 @@
-let newDiv = document.createElement('div');
-newDiv.style.height= '50px';
-newDiv.style.width = '200px';
-newDiv.style.background = 'red';
-
-let description = document.createElement('p');
-description.innerHTML = 'Yo nunca bebo… Vino. (Drácula)';
-
-newDiv.appendChild(description);
-
-console.log(newDiv);
-
-document.getElementById('lec').appendChild(newDiv)
+window.addEventListener("load",(function(){document.createElement("div");let e=document.getElementById("title");e.innerHTML="Hay algo extraño con ese sujeto....",e.align="center";var o=document.getElementById("text1");console.log(o),o.innerHTML="el chico se quedo ponderando acerca de ello <br> durante mucho mucho mucho tiempo <br> mas nunca tomarse ese camino <br> MAS NUNCA SE QUEDO HASTA TARDE.. <br> en la bilioteca...",o.align="center",document.getElementById("img").src="9.jpg";var a=document.getElementById("text2");a.innerHTML="porque a pesar del miedo de los examenes <br> esa noche conocio el horror verdadero.. <br> el terror AUTENTICO.. en especial cuando finalmente se le ocurrio... <br> se le ocurrio algo mientras tomaba cafe <br> y miraba a la gente mientras botaba <br> largos vaporones de humo por la boca.. <br> aquella figura... <br> no expulsaba humo por la boca...",a.align="center"}));

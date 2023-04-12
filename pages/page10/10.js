@@ -1,13 +1,1 @@
-let newDiv = document.createElement('div');
-newDiv.style.height= '50px';
-newDiv.style.width = '200px';
-newDiv.style.background = 'red';
-
-let description = document.createElement('p');
-description.innerHTML = '¿Cuál es tu película de terror favorita? (Scream)';
-
-newDiv.appendChild(description);
-
-console.log(newDiv);
-
-document.getElementById('lec').appendChild(newDiv)
+window.addEventListener("load",(function(){document.createElement("div");let e=document.getElementById("title");e.innerHTML="Hay algo extraño con ese sujeto....",e.align="center";var n=document.getElementById("text1");console.log(n),n.innerHTML="de aquella figura<br> de aquella silueta negra.. <br> no salia neblina.. <br> en aquella noche tan fria..",n.align="center";var a=document.getElementById("text2");a.innerHTML="fuera lo que fuera entonces... <br>aquella persona..... <br> no respiraba....",a.align="center"}));

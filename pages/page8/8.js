@@ -1,13 +1,1 @@
-let newDiv = document.createElement('div');
-newDiv.style.height= '50px';
-newDiv.style.width = '200px';
-newDiv.style.background = 'red';
-
-let description = document.createElement('p');
-description.innerHTML = 'Está vivo, ¡está vivo! (Frankenstein)';
-
-newDiv.appendChild(description);
-
-console.log(newDiv);
-
-document.getElementById('lec').appendChild(newDiv)
+window.addEventListener("load",(function(){document.createElement("div");let e=document.getElementById("title");e.innerHTML="Hay algo extraño con ese sujeto....",e.align="center";var a=document.getElementById("text1");console.log(a),a.innerHTML="pero finalmente gano.. con el corazon en la garganta <br> logro llegar hasta los dormitorios chillando lo suficiente como para que la luz <br> comenzaran a encenderse a lo largo y ancho del complejo departamental",a.align="center",document.getElementById("img").src="8.jpg";var n=document.getElementById("text2");n.innerHTML="aquella cosa se movia de manera acartonada.. <br> casi graciosa... <br> pero lo estaba persiguiendo... <br> y eso era lo que lo hacia tragico..",n.align="center"}));

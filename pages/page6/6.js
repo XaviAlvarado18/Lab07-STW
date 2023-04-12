@@ -1,13 +1,1 @@
-let newDiv = document.createElement('div');
-newDiv.style.height= '60px';
-newDiv.style.width = '200px';
-newDiv.style.background = 'red';
-
-let description = document.createElement('p');
-description.innerHTML = 'Hagas lo que hagas, no te quedes dormido. (Pesadilla en Elm Street)';
-
-newDiv.appendChild(description);
-
-console.log(newDiv);
-
-document.getElementById('lec').appendChild(newDiv)
+window.addEventListener("load",(function(){document.createElement("div");let e=document.getElementById("title");e.innerHTML="Hay algo extraño con ese sujeto....",e.align="center";var r=document.getElementById("text1");console.log(r),r.innerHTML="Retrocede <br> Retrocede <br> Retrocede <br> sin dejar de verlo.. <br> \tcaminando hacia ATRAS la figura no se mueve.. <br>pareciera que fuera requisito que el no lo viera para que el otro comience a seguirlo.. <br>sus nervios lo traicionan... <br>comienza a gritar como para tratar de llamar la atencion de alguien... <br>y se echa a correr con todas las fuerzas que puede....",r.align="center",document.getElementById("img").src="6.jpg";var a=document.getElementById("text2");a.innerHTML="Empieza a correr <br> Empieza a correr <br> Empieza a correr <br>Empieza a correr",a.align="center"}));
